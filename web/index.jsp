@@ -49,8 +49,8 @@
                                     <div class="jumbotron">
                                         <h2 class="center">Faça seu login</h2>
                                         <form method="post" action="" class="center">
-                                            <input class="form-control" type="text" name="login" placeholder="Digite seu Usuário">
-                                            <input class="form-control" type="password" name="passwd" placeholder="Digite sua Senha"><br>
+                                            <input class="form-control" type="text" name="login" placeholder="Digite seu Usuário" required>
+                                            <input class="form-control" type="password" name="passwd" placeholder="Digite sua Senha" required><br>
                                             <input class="btn btn-success" type="submit" name="btnlogin" value="Entrar">
                                         </form>
                                     </div>
