@@ -47,11 +47,14 @@
                             <div class="modal-content">
                                 <div class="form-group col-sm-6">
                                     <div class="jumbotron">
-                                        <h2 class="center">Faça seu login</h2>
+                                        <div class="modal-header" style="padding:35px 50px;">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h2><span class="glyphicon glyphicon-lock"></span>Login</h2>
+                                        </div>
                                         <form method="post" action="" class="center">
-                                            <label>Usuário</label>
-                                            <input class="form-control" type="text" name="login" placeholder="Digite seu Usuário" required>
-                                            <label>Senha</label>
+                                            <label><span class="glyphicon glyphicon-user"></span> Usuário</label>
+                                            <input class="form-control" type="text" name="login" placeholder="Digite seu Usuário" required autofocus>
+                                            <label><span class="glyphicon glyphicon-eye-open"></span> Senha</label>
                                             <input class="form-control" type="password" name="passwd" placeholder="Digite sua Senha" required><br>
                                             <input class="btn btn-success" type="submit" name="btnlogin" value="Entrar">
                                         </form>
@@ -71,21 +74,26 @@
                             <div class="modal-content">
                                 <div class="form-group col-sm-12">
                                     <div class="jumbotron">
-                                        <h2 class="center">Seja Bem-Vindo!</h2>
-                                        <h3>Estamos feliz em ter você, realize seu cadastro, é rapido!</h3>
+                                        <div class="modal-header" style="padding:35px 50px;">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h2 class="center">Seja Bem-Vindo!</h2>
+                                            <h3>Estamos feliz em ter você aqui, realize seu cadastro, é rapido!</h3>
+                                        </div>
+                                        
                                         <form method="post" action="" class="center">
-                                            <label>Nome</label>
-                                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required>
-                                            <label>E-mail</label>
+                                            <label><span class="glyphicon glyphicon-user"></span> Nome</label>
+                                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required autofocus>
+                                            <label><span class="glyphicon glyphicon-envelope"></span> E-mail</label>
                                             <input class="form-control" type="email" name="email" placeholder="Digite seu E-mail" required>
-                                            <label>Nome de Usuário</label>
+                                            <label><span class="glyphicon glyphicon-user"></span> Nome de Usuário</label>
                                             <input class="form-control" type="text" name="login" placeholder="Digite um nome de usuário" required>
-                                            <label>Senha</label>
+                                            <label><span class="glyphicon glyphicon-eye-open"></span> Senha</label>
                                             <input class="form-control" type="password" name="passwd" placeholder="Digite uma senha Senha" required>
-                                            <label>Repetir Senha</label>
+                                            <label><span class="glyphicon glyphicon-eye-open"></span> Repetir Senha</label>
                                             <input class="form-control" type="password" name="passwd" placeholder="Repita sua senha" required><br>
                                             <input class="btn btn-success" type="submit" name="btnlogin" value="Entrar">
                                         </form>
+                                        
                                     </div>
                                 </div>
                             </div>
