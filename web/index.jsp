@@ -79,7 +79,6 @@
                                             <h2 class="center">Seja Bem-Vindo!</h2>
                                             <h3>Estamos feliz em ter você aqui, realize seu cadastro, é rapido!</h3>
                                         </div>
-                                        
                                         <form method="post" action="" class="center">
                                             <label><span class="glyphicon glyphicon-user"></span> Nome</label>
                                             <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required autofocus>
